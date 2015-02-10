@@ -1,6 +1,8 @@
 myApp.controller('RegistrationController', 
   function($scope, $firebaseSimpleLogin, $location, Authentication) {
   
+  var ref = 
+  
   $scope.login = function() {
     Authentication.login($scope.user)
       .then(function(user) {

@@ -1,6 +1,6 @@
 var myApp = angular.module('myApp', 
   ['ngRoute', 'firebase', 'appControllers'])
-.constant('FIREBASE_URL', 'https://attendanceldcapp.firebaseio.com/');
+.constant('FIREBASE_URL', 'https://torid-fire-5916.firebaseio.com/meetings/');
 
 var appControllers = angular.module('appControllers', ['firebase']);
 
